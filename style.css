@@ -1,0 +1,438 @@
+/*
+font-family: 'Great Vibes', ;
+font-family: 'Playfair Display', ;
+font-family: 'Raleway', ;
+*/
+
+*{
+    padding:0px;
+    margin: 0px;
+}
+
+.section1{
+    width: 100%;
+    height:100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.section1 .ss11{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 12vh;
+    width: 100%;
+    background-color:rgba(7, 7, 10, 0.918);
+    color:#fff;
+    align-items: center;
+    font-family: 'Raleway';
+    
+}
+.section1 .ss11 ul {
+    list-style-type: none;
+}
+
+.section1 .ss11 ul li {
+    display : inline-block;
+
+}
+
+.section1 .ss11 ul li i{
+    margin:10px;
+}
+
+.section1 .ss11 ul li p a {
+    color:#fff;
+    text-decoration: none;
+}
+
+.section1 .ss12{
+    width:100%;
+    height:13vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color:#000;
+    background-color: #fff;
+    font-family: 'Raleway';
+    align-items: center;
+
+}
+.section1 .ss12 ul {
+    list-style-type: none;
+}
+
+.section1 .ss12 ul li{
+    display: inline-block;
+    margin:10px;
+    
+}
+
+.section1 .ss12 ul li p a {
+    color:#000;
+    text-decoration: none;
+}
+
+.section1 .ss12 .ss12-left {
+    margin:10px;
+    font-family: 'Playfair Display';
+    
+}
+
+.section1 .ss12 h3{
+  
+    font-family: 'Playfair Display';
+    font-weight: bold;
+    font-size: 40px;
+    
+    
+}
+
+.section1 .ss13{
+    width:100%;
+    height:80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color:#fff;
+    font-family: 'Raleway';
+    align-items: center;
+    background-image: url('hero img.jpg');
+    background-size:cover ;
+
+}
+
+.section1 .ss13 h1{
+    font-size: 6em;
+    font-family: 'Playfair Display';
+    font-weight: bold;
+}
+
+
+.section1 .ss13 .button{
+    width: 200px;
+    height:50px;
+    background-color: rgba(0,0,0,.3);
+    border:1px white solid;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    transition:all 300ms;
+
+}
+
+.section1 .ss13 .button:hover {
+    background-color:black;
+}
+
+.section2{
+    height: 50vh;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+
+
+}
+
+.section2 .ss21{
+    width: 20%;
+
+}
+
+.section2 .ss22{
+    width: 20%;
+}
+
+.section2 .ss23{
+    width: 20%;
+}
+.section2 .ss24{
+    width: 20%;
+}
+
+.section2 .fas{
+    margin:10px;
+    border:1px black solid;
+    padding:10px;
+    border-radius: 50%;
+    color:white;
+    background-color: rgb(37, 37, 37);
+}
+.section2 p{
+    margin:10px;
+    font-family: 'Raleway' ;
+}
+
+.section2 .title1{
+    font-weight: bold;
+    font-family: 'Playfair Display' ;
+
+}
+
+.section3{
+   
+        width:100%;
+        height:55vh;
+        color:#fff;
+        font-family: 'Raleway';
+        background-image: url('splash.jpg');
+        background-size:cover;
+        float: right;
+}
+
+.section3 .cover{
+    color:black;
+    
+    position: relative;
+    width: 40%;
+    float: right;
+    text-align: center;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.section3 .subtitle{
+    font-family: 'Great Vibes' ;
+    font-size: 16px;
+}
+
+.section3 .title2{
+    font-weight: bold;
+    font-family: 'Playfair Display';
+    font-size: 20px;
+
+}
+
+.section3 .text1{
+    font-size: 15px;
+    margin:5px;
+}
+
+.section3 .button{
+    width: 200px;
+    height:50px;
+    border:1px white solid;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    transition:all 300ms;
+
+}
+
+.section3 .button:hover {
+    background-color :rgba(0,0,0,.3);
+
+}
+
+
+.section4{
+    width: 100%;
+    height: 55vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.section4 .ss4{
+    width: 20%;
+    height: 100%;
+
+}
+
+
+
+.section4 .ss41{
+    background-image: url("png1.jpg");
+    background-size: cover;
+}
+
+.section4 .ss42{
+    background-image: url("png2.jpg");
+    background-size: cover;
+}
+
+.section4 .ss43{
+    background-image: url("png3.jpg");
+    background-size: cover;
+}
+
+.section4 .ss44{
+    background-image: url("png4.jpg");
+    background-size: cover;
+}
+
+.section4 .ss45{
+    background-image: url("png5.jpg");
+    background-size: cover;
+}
+
+.section4 .cover {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.7);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section4 .subtitle4 {
+    margin-top: 100px;
+    margin-bottom: 10px;
+    color: #fff;
+    font-family: 'Great Vibes' ;
+    font-size: 20px;
+}
+
+.section4 .title4 {
+    margin-top: 10px;
+    color: #fff;
+    font-size: 22px;
+    font-family: 'Raleway';
+    font-weight: bold;
+}
+
+.section5{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 40vh;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+
+.section5 .ss5{
+    width:25%;
+    align-items: center;
+}
+
+.section5 .subtitle5{
+
+    font-size: 20px;
+    font-family: 'Great Vibes' ;
+    margin:7px;
+}
+
+.section5 .title5{
+    font-family: 'Playfair Display';
+    margin:5px;
+    font-weight: bold;
+}
+
+.section5 .text5 {
+    font-family: 'Raleway' ;
+
+}
+
+.section6{
+    background-image: url("water.png");
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+}
+
+.section6 .ss6{
+    width:35%;
+    float:right;
+
+}
+
+.section6 .subtitle6{
+
+    font-size: 25px;
+    font-family: 'Great Vibes' ;
+    margin:7px;
+    text-align: center;
+}
+
+.section6 .title6{
+    font-family: 'Playfair Display';
+    margin:5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.section6 .text6 {
+    font-family: 'Raleway' ;
+    margin:5px;
+    text-align: center;
+
+}
+
+.section6 .ss6 .ss62 .white{
+
+    width:90%;
+    height: 5px;
+    background-color:white;
+    margin-bottom: 10px;
+    border: 1px solid black;
+}
+.section6 .ss6 .ss62 .fashion .black1{
+
+    width:54%;
+    height: 5px;
+    background-color: black;
+}
+.section6 .ss6 .ss62 .fashion .procent1{
+   margin-left: 46%;
+   border: 2px solid black;
+   width:30px;
+   height: 20px;
+   color:white;
+   background-color: black;
+   margin-bottom:3px;
+}
+
+.section6 .ss6 .ss62 .modelling .black2{
+
+    width:68.5%;
+    height: 5px;
+    background-color: black;
+}
+.section6 .ss6 .ss62 .modelling .procent2{
+    margin-left: 58%;
+    border: 2px solid black;
+    width:30px;
+    height: 20px;
+    color:white;
+    background-color: black;
+    margin-bottom:3px;
+ 
+ }
+ .section6 .ss6 .ss62 .makeup .black3{
+
+    width:85%;
+    height: 5px;
+    background-color: black;
+}
+.section6 .ss6 .ss62 .makeup .procent3{
+    margin-left: 71%;
+    border: 2px solid black;
+    width:30px;
+    height: 20px;
+    color:white;
+    background-color: black;
+    margin-bottom:3px;
+ 
+ }
+
+ .section6 .ss6 .ss62 .name{
+    font-family: 'Playfair Display';
+    margin-bottom:-20px;
+    font-size: 15px;
+
+   
+ }
+
+ 
